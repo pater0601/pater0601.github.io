@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #aad7ee;
+  background-color: #b9c1c5;
 }
 
 li a {
@@ -15,6 +15,6 @@ li a {
 
 /* Change the link color to #aad7ee on hover */
 li a:hover {
-  background-color: rgb(133, 208, 228);
+  background-color: rgb(192, 203, 206);
   color: white;
 }
