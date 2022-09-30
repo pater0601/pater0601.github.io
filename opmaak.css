@@ -18,3 +18,5 @@ li a:hover {
   background-color: rgb(41, 41, 41);
   color: white;
 }
+li a:hover {
+  background-color: rgb(211, 244, 255);
