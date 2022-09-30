@@ -13,10 +13,13 @@ li a {
   text-decoration: none;
 }
 
+body   {
+    background-color: rgb(211, 244, 255);
+}
+
+
 /* Change the link color to #aad7ee on hover */
 li a:hover {
   background-color: rgb(41, 41, 41);
   color: white;
 }
-li a:hover {
-  background-color: rgb(211, 244, 255);
