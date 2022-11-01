@@ -5,7 +5,7 @@ ul {
   width: 200px;
   background-color: #e4eaec;
 }
-
+/* Kleur veranderd naar de kleur e4eaec*/
 li a {
   display: block;
   color: #000;
@@ -16,7 +16,7 @@ li a {
 body   {
     background-color: rgb(211, 244, 255);
 }
-
+/* achtergrond kleur gemaakt */
 
 /* Change the link color to #aad7ee on hover */
 li a:hover {
