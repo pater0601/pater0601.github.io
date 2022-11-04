@@ -17,26 +17,51 @@
   <!--foto toegevoegt -->
 <img src="Bram.jpg" 
 
-
-  <link src="bjb derde helft - YouTube.html" alt="bjb derde helft - YouTube.html"> <!--link naar Youtube video geplaats-->
   
-  <!DOCTYPE html> 
-  <html> 
-  <body> 
-  
-  <video width="300" controls>
-    <source src="https://www.youtube.com/watch?v=O5ZZEsp1AKI/" type="video/mp4">
-    <source src="https://www.youtube.com/watch?v=O5ZZEsp1AKI/" type="video/ogg">
-    Your browser does not support HTML video.
-  </video>
-  
-  <p>
-  Video courtesy of 
-  <a href="https://www.youtube.com/watch?v=O5ZZEsp1AKI/" target="https://www.youtube.com/watch?v=O5ZZEsp1AKI/">bjb derde helft</a>.
-  </p>
-  <!--video toegevoegt in de pagina-->
-  </body> 
-  </html>
+    <html> 
+      <body> 
+      
+      <div style="text-align:center"> 
+        <button onclick="playPause()">Play/Pause</button> 
+        <button onclick="makeBig()">Big</button>
+        <button onclick="makeSmall()">Small</button>
+        <button onclick="makeNormal()">Normal</button>
+        <br><br>
+        <video id="video1" width="420">
+          <source src="mov_bbb.mp4" type="video/mp4">
+          <source src="mov_bbb.ogg" type="video/ogg">
+          Your browser does not support HTML video.
+        </video>
+      </div> 
+      
+      <script> 
+      var myVideo = document.getElementById("video1"); 
+      
+      function playPause() { 
+        if (myVideo.paused) 
+          myVideo.play(); 
+        else 
+          myVideo.pause(); 
+      } 
+      
+      function makeBig() { 
+          myVideo.width = 560; 
+      } 
+      
+      function makeSmall() { 
+          myVideo.width = 320; 
+      } 
+      
+      function makeNormal() { 
+          myVideo.width = 420; 
+      } 
+      </script> 
+      
+      <p>Video courtesy of <a href="https://www.youtube.com/watch?v=O5ZZEsp1AKI/" target="_blank">Bjb derde helft</a>.</p>
+      
+      </body> 
+      </html>
+      
   
  </body>
 </html>
