@@ -25,27 +25,18 @@
   Een 3-lagenmodel, ook wel bekend als een 3-tier architectuur, is een organisatiemodel dat wordt gebruikt in de informatica en softwareontwikkeling om de structuur en het ontwerp van een applicatie of systeem te organiseren.
   Het model is opgebouwd uit drie afzonderlijke lagen of niveaus die specifieke functies en verantwoordelijkheden hebben. Deze lagen zijn:
   
-<h2>Presentatielaag (Presentation Layer):</h2>
-Dit is de bovenste laag van het model en staat in direct contact met de gebruiker. Het richt zich op de gebruikersinterface (UI) en presenteert informatie aan de gebruiker en verzamelt input van de gebruiker.
-Het bevat elementen zoals grafische gebruikersinterfaces, webpagina's, en andere interfaces waarmee gebruikers kunnen communiceren met het systeem.
-
+<h2>Toepassingslaag:</h2>
+De toepassingslaag, ook wel de applicatielaag genoemd, is de bovenste laag in een 3-lagenmodel voor netwerkcommunicatie, zoals het OSI-model.
+Deze laag speelt een cruciale rol in het verzenden en ontvangen van gegevens tussen applicaties en gebruikers.
+Hier vinden de daadwerkelijke toepassingen plaats, zoals webbrowsers, e-mailclients en instant messaging-apps.
+De toepassingslaag zorgt voor een abstractie van de onderliggende netwerkinfrastructuur en biedt diensten zoals gegevenscodering, authenticatie en gegevenspresentatie aan applicaties. 
+Protocollen op deze laag omvatten HTTP, SMTP, FTP en DNS, die applicaties in staat stellen om gegevens te verzenden, ontvangen en interpreteren over het netwerk, waardoor naadloze communicatie mogelijk is.
+  
+  
 <h2>Logicale laag (Business Logic Layer):</h2>
-Dit is de middelste laag van het model en bevat de kernlogica van de applicatie. Hier worden de bedrijfsregels en processen uitgevoerd. 
-Het verwerkt verzoeken van de presentatielaag en communiceert met de gegevenslaag om gegevens op te halen of bij te werken. 
-De logische laag is verantwoordelijk voor het uitvoeren van de zakelijke operaties van de applicatie.
+
 
 <h2>Gegevenslaag (Data Layer):</h2>
-Dit is de onderste laag van het model en beheert de gegevens die door de applicatie worden gebruikt. 
-Het omvat databases, bestandssystemen of andere opslagmechanismen waar gegevens worden opgeslagen en opgehaald. 
-De gegevenslaag is verantwoordelijk voor gegevensopslag, -beheer en -toegang, en het voorziet de logische laag van de benodigde gegevens.
-De voordelen van een 3-lagenmodel zijn onder meer modulariteit, schaalbaarheid en onderhoudbaarheid. Elke laag kan onafhankelijk worden ontwikkeld, getest en onderhouden, waardoor wijzigingen in één laag minimale invloed hebben op de andere lagen. 
-Dit maakt het gemakkelijker om complexe applicaties te ontwikkelen en te beheren.
-
-Daarnaast vergemakkelijkt een 3-lagenmodel ook de herbruikbaarheid van code, omdat de logica die verantwoordelijk is voor bedrijfsprocessen kan worden gescheiden van de gebruikersinterface en de gegevensopslag.
-Hierdoor kunnen dezelfde bedrijfsregels in verschillende gebruikersinterfaces worden gebruikt of kunnen verschillende interfaces toegang krijgen tot dezelfde gegevens zonder dat de kernlogica hoeft te worden herschreven.
-
-
-
 
   
 <img src="unnamed.jpg"
